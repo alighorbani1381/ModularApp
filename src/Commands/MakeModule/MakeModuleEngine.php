@@ -11,7 +11,6 @@ trait MakeModuleEngine
 
     use ModuleFileManager;
 
-
     public $moduleName;
 
     public $optionAlias = [

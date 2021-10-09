@@ -16,11 +16,9 @@ trait ModuleFileManager
         'DataBase' => ['factory', 'migrations'],
         'Http' => ['Controllers', 'Requests'],
         'Facades',
-        'FakeRepository',
         'Repositories',
         'tests',
         'Models',
-        'Views',
     ];
 
     /**

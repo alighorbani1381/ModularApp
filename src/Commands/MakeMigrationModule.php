@@ -4,7 +4,7 @@ namespace Alighorbani\ModularApp\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
-use Alighorbani\Commands\MakeModule\PathManager;
+use Alighorbani\ModularApp\Commands\MakeModule\PathManager;
 
 class MakeMigrationModule extends Command
 {
