@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Alighorbani1381\\ModularApp\\ModulesServiceProvider"
+                "Alighorbani1381\\ModularApp\\ModularApplicaionServiceProvider"
             ]
         }
     }
