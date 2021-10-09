@@ -9,7 +9,7 @@ use Illuminate\Contracts\Foundation\Application;
 
 class ModulesServiceProvider extends ServiceProvider
 {
-    use ModulePathHelper;
+    use \Alighorbani\ModularApp\ModulePathHelper;
 
     public $name;
 
