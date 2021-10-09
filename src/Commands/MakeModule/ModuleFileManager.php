@@ -2,8 +2,6 @@
 
 namespace Alighorbani\ModularApp\Commands\MakeModule;
 
-use PHP_Parallel_Lint\PhpConsoleColor\ConsoleColor;
-
 trait ModuleFileManager
 {
 
@@ -86,15 +84,13 @@ trait ModuleFileManager
     {
         $this->info("Module Created Successfuly !");
 
-        $printer = resolve(ConsoleColor::class);
-
         echo PHP_EOL . PHP_EOL;
 
-        echo $printer->apply('yellow', "Important Tip: ");
+        echo "*********** Important Tip  ***********";
 
         echo PHP_EOL;
 
-        echo $printer->apply('red', "to active your module add class into providers array");
+        echo $this->line("To active your module add class into providers array");
 
         echo PHP_EOL . PHP_EOL;
     }
