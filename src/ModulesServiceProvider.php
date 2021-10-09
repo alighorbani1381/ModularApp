@@ -118,20 +118,6 @@ class ModulesServiceProvider extends ServiceProvider
     }
 
     /**
-     * Set Config Folder for Module
-     * 
-     * @param $configPath
-     * 
-     * @return void
-     */
-    protected function defineConfig(string $configPath = 'config', string $configKey)
-    {
-        $configKey = $configKey ?? $this->name;
-
-        // $this->mergeConfigFrom($configPath, $configKey);
-    }
-
-    /**
      * Set All Configuration for module (router, viewer, migration, configFile)
      * 
      * @return void
