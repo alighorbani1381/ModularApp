@@ -6,7 +6,6 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Alighorbani\Commands\MakeModule\PathManager;
 
-
 class MakeMigrationModule extends Command
 {
     use PathManager;

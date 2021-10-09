@@ -3,9 +3,9 @@
 namespace Alighorbani\ModularApp;
 
 use Illuminate\Support\Facades\View;
-use Alighorbani\ModularApp\ModulePathHelper;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
+use Alighorbani\ModularApp\ModulePathHelper;
 use Illuminate\Contracts\Foundation\Application;
 
 class ModulesServiceProvider extends ServiceProvider

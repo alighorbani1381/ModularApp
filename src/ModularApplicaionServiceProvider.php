@@ -3,7 +3,6 @@
 namespace Alighorbani\ModularApp;
 
 use Illuminate\Support\ServiceProvider;
-
 use Alighorbani\ModularApp\Commands\MakeEmptyModule;
 use Alighorbani\ModularApp\Commands\MakeMigrationModule;
 
