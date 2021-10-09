@@ -17,13 +17,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Alighorbani1381\\ModularApp\\": "src/"
+            "Alighorbani\\ModularApp\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Alighorbani1381\\ModularApp\\ModularApplicaionServiceProvider"
+                "Alighorbani\\ModularApp\\ModularApplicaionServiceProvider"
             ]
         }
     }
