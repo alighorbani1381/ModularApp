@@ -98,7 +98,7 @@ trait PathManager
      */
     public function getSampleModuleFile($fileName)
     {
-        return $this->getModulePath('Source' . DIRECTORY_SEPARATOR . 'SampleModule', $fileName);
+        return str_replace('\Commands\MakeModule', '', __DIR__) . DIRECTORY_SEPARATOR . 'SampleModule' . DIRECTORY_SEPARATOR . $fileName;
     }
 
     /**
