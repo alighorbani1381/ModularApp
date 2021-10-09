@@ -98,7 +98,8 @@ trait PathManager
      */
     public function getSampleModuleFile($fileName)
     {
-        return str_replace('\Commands\MakeModule', '', __DIR__) . DIRECTORY_SEPARATOR . 'SampleModule' . DIRECTORY_SEPARATOR . $fileName;
+        return str_replace('\Commands\MakeModule', '', __DIR__) . DIRECTORY_SEPARATOR . 'ModuleStructure' . DIRECTORY_SEPARATOR . $fileName;
+        
     }
 
     /**
