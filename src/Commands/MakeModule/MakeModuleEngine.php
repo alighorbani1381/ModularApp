@@ -182,15 +182,13 @@ trait MakeModuleEngine
 
                 $this->makeServiceProvider();
 
-                $this->makeReadFileFromSample('routes.php', 'routes.php');
+                $this->makeReadFileFromSample('routes.stub', 'routes.php');
 
                 $this->makeDefaultFacade();
 
                 $this->makeDefaultModel();
 
                 $this->makeDefaultRepository();
-
-                $this->makeFakeRepository();
 
                 $this->makeDefaultController();
 

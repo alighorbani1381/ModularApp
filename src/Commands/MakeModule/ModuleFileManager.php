@@ -339,7 +339,7 @@ trait ModuleFileManager
     {
         $saveTo = $this->namingWithModule('', 'ServiceProvider');
 
-        $this->makeReadFileFromSample('ModuleServiceProvider.php', $saveTo);
+        $this->makeReadFileFromSample('ModuleServiceProvider.stub', $saveTo);
     }
 
     /**
@@ -351,7 +351,7 @@ trait ModuleFileManager
     {
         $saveTo = $this->getNestedPath('Facades', $this->namingWithModule('', 'Facade'));
 
-        $sampleFilePath = $this->getNestedPath('Facades', 'ModuleNameFacade.php');
+        $sampleFilePath = $this->getNestedPath('Facades', 'ModuleNameFacade.stub');
 
         $this->makeReadFileFromSample($sampleFilePath, $saveTo);
     }
@@ -365,7 +365,7 @@ trait ModuleFileManager
     {
         $controllerPath = $this->getNestedPath('Http', 'Controllers');
 
-        $sampleFilePath = $this->getNestedPath($controllerPath, 'ModuleNameController.php');
+        $sampleFilePath = $this->getNestedPath($controllerPath, 'ModuleNameController.stub');
 
         $saveTo =  $controllerPath . DIRECTORY_SEPARATOR . $this->namingWithModule('', 'Controller');
 
@@ -380,7 +380,7 @@ trait ModuleFileManager
     public function makeDefaultModel()
     {
 
-        $sampleFilePath = $this->getNestedPath('Models', 'ModuleName.php');
+        $sampleFilePath = $this->getNestedPath('Models', 'ModuleName.stub');
 
         $saveTo = $this->getNestedPath('Models', $this->namingWithModule());
 
@@ -394,29 +394,13 @@ trait ModuleFileManager
      */
     public function makeDefaultRepository()
     {
-
-        $sampleFilePath = $this->getNestedPath('Repositories', 'ModuleNameRepository.php');
+        $sampleFilePath = $this->getNestedPath('Repositories', 'ModuleNameRepository.stub');
 
         $saveTo =  $this->getNestedPath('Repositories', $this->namingWithModule('', 'Repository'));
 
         $this->makeReadFileFromSample($sampleFilePath, $saveTo, 'ModuleName', $this->variableFixConvention());
     }
 
-
-    /**
-     * Make Fake Repository For Module When Created
-     * 
-     * @return void
-     */
-    public function makeFakeRepository()
-    {
-
-        $sampleFilePath =  $this->getNestedPath('FakeRepository', 'FakeModuleNameRepository.php');
-
-        $saveTo = $this->getNestedPath('FakeRepository', $this->namingWithModule('Fake', 'Repository'));
-
-        $this->makeReadFileFromSample($sampleFilePath, $saveTo, 'ModuleName', $this->variableFixConvention());
-    }
 
     /**
      * Create Nested Folder together
