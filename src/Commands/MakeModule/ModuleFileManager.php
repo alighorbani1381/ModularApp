@@ -1,6 +1,6 @@
 <?php
 
-namespace Alighorbani\Commands\MakeModule;
+namespace Alighorbani\ModularApp\Commands\MakeModule;
 
 use PHP_Parallel_Lint\PhpConsoleColor\ConsoleColor;
 

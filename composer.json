@@ -1,0 +1,29 @@
+{
+    "name": "alighorbani/modular-app",
+    "description": "use the simple modular structure in your laravel project",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Ali Ghorbani",
+            "email": "alighorbani20002@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3|7.2.*|7.3.*|7.4.*|^8.0",
+        "laravel/framework": "~5.1|6.*|7.*|8.*",
+        "imanghafoori/laravel-smart-facades": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alighorbani1381\\ModularApp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alighorbani1381\\ModularApp\\ModulesServiceProvider"
+            ]
+        }
+    }
+}

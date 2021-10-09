@@ -1,6 +1,6 @@
 <?php
 
-namespace Alighorbani\Commands\MakeModule;
+namespace Alighorbani\ModularApp\Commands\MakeModule;
 
 use Illuminate\Support\Str;
 use InvalidArgumentException;

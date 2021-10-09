@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Source;
+namespace Alighorbani\ModularApp;
 
 use Exception;
-use Alighorbani\HelperModular;
+use Alighorbani\ModularApp\HelperModular;
 
 trait ModulePathHelper
 {

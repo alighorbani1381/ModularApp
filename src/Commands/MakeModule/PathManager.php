@@ -1,8 +1,8 @@
 <?php
 
-namespace Alighorbani\Commands\MakeModule;
+namespace Alighorbani\ModularApp\Commands\MakeModule;
 
-use Alighorbani\Commands\MakeModule\Helper;
+use Alighorbani\ModularApp\Commands\MakeModule\Helper;
 
 trait PathManager
 {

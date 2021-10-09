@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Source;
+namespace Alighorbani\ModularApp;
 
 use Illuminate\Support\Facades\View;
-use Alighorbani\ModulePathHelper;
+use Alighorbani\ModularApp\ModulePathHelper;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Foundation\Application;
@@ -136,11 +136,13 @@ class ModulesServiceProvider extends ServiceProvider
      * 
      * @return void
      */
-    protected function setModuleConfiguration()
+    protected function setModuleConfiguration($isApi = true)
     {
         $this->defineRouter();
 
-        $this->defineViewer();
+        if (!$isApi) {
+            $this->defineViewer();
+        }
 
         $this->defineMigrator();
     }

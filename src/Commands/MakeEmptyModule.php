@@ -1,9 +1,9 @@
 <?php
 
-namespace Alighorbani\Commands;
+namespace Alighorbani\ModularApp\Commands;
 
 use Illuminate\Console\Command;
-use Alighorbani\Commands\MakeModule\MakeModuleEngine;
+use Alighorbani\ModularApp\Commands\MakeModule\MakeModuleEngine;
 
 class MakeEmptyModule extends Command
 {
@@ -37,8 +37,7 @@ class MakeEmptyModule extends Command
      */
     public function handelModule()
     {
-
-        $this->warn('to Cancel enter << C >> Character For Module');
+        $this->warn('to terminate this action enter << C >> Character For Module');
 
         $moduleName  = $this->ask("Enter Your Module Name:");
 

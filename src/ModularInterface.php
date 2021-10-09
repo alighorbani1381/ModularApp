@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Source;
+namespace Alighorbani\ModularApp;
 
 interface ModularInterface
 {

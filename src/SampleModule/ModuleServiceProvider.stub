@@ -1,0 +1,21 @@
+<?php
+
+namespace Modules\ModuleName;
+
+use Alighorbani\ModularApp\ModularInterface;
+use Modules\ModuleName\Facades\ModuleNameFacade;
+use Alighorbani\ModularApp\ModulesServiceProvider;
+use Modules\ModuleName\Repositories\ModuleNameRepository;
+
+class ModuleNameServiceProvider extends ModulesServiceProvider implements ModularInterface
+{
+    public function boot()
+    {
+        $this->initializeFacade();
+    }
+
+    public function initializeFacade()
+    {
+        ModuleNameFacade::shouldProxyTo(ModuleNameRepository::class);
+    }
+}

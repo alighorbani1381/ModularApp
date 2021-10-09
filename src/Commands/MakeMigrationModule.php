@@ -1,6 +1,6 @@
 <?php
 
-namespace Alighorbani\Commands;
+namespace Alighorbani\ModularApp\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
@@ -29,7 +29,6 @@ class MakeMigrationModule extends Command
 
         $this->createMigration($migrationPath);
     }
-
 
     public function getModuleMigrationPath()
     {
