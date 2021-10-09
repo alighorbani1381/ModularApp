@@ -2,9 +2,9 @@
 
 namespace Modules\ModuleName;
 
-use Modules\Source\FacadeLoader;
-use Modules\Source\ModularInterface;
-use Modules\Source\ModulesServiceProvider;
+use Alighorbani\FacadeLoader;
+use Alighorbani\ModularInterface;
+use Alighorbani\ModulesServiceProvider;
 use Modules\ModuleName\Facades\ModuleNameFacade;
 use Modules\ModuleName\Repositories\ModuleNameRepository;
 use Modules\ModuleName\FakeRepository\FakeModuleNameRepository;

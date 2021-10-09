@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Source\Contracts;
+namespace Alighorbani\Contracts;
 
 interface BaseReplacer
 {

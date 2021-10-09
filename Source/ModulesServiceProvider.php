@@ -3,7 +3,7 @@
 namespace Modules\Source;
 
 use Illuminate\Support\Facades\View;
-use Modules\Source\ModulePathHelper;
+use Alighorbani\ModulePathHelper;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Foundation\Application;

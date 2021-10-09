@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Source\Directives;
+namespace Alighorbani\Directives;
 
 use EasyBlade\Directives\Directive;
 

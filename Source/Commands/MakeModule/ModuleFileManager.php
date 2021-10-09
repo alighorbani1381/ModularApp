@@ -1,9 +1,8 @@
 <?php
 
-namespace Modules\Source\Commands\MakeModule;
+namespace Alighorbani\Commands\MakeModule;
 
 use PHP_Parallel_Lint\PhpConsoleColor\ConsoleColor;
-
 
 trait ModuleFileManager
 {

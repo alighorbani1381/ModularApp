@@ -1,10 +1,10 @@
 <?php
 
-namespace Modules\Source\Commands;
+namespace Alighorbani\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
-use Modules\Source\Commands\MakeModule\PathManager;
+use Alighorbani\Commands\MakeModule\PathManager;
 
 
 class MakeMigrationModule extends Command

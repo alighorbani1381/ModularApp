@@ -3,16 +3,16 @@
 namespace Modules\Source;
 
 use Illuminate\Support\Facades\Blade;
-use Modules\Source\Http\ModifiableView;
+use Alighorbani\Http\ModifiableView;
 use Illuminate\Support\ServiceProvider;
-use Modules\Source\Facade\ModifiableFacade;
+use Alighorbani\Facade\ModifiableFacade;
 
-use Modules\Source\Commands\{
+use Alighorbani\Commands\{
     MakeEmptyModule,
     MakeMigrationModule,
 };
 
-use Modules\Source\Directives\{
+use Alighorbani\Directives\{
     HasValue,
     EndCondition,
     ElseCondition,
@@ -20,7 +20,7 @@ use Modules\Source\Directives\{
     AjaxLoaderDirective,
 };
 
-use Modules\Source\Directives\Modifiable\{
+use Alighorbani\Directives\Modifiable\{
     ModifyParam,
     ModifyFormRequirement
 };

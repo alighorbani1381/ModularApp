@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Source\Rules;
+namespace Alighorbani\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 

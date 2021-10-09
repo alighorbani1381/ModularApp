@@ -3,7 +3,7 @@
 namespace Modules\Source;
 
 use Exception;
-use Modules\Source\HelperModular;
+use Alighorbani\HelperModular;
 
 trait ModulePathHelper
 {

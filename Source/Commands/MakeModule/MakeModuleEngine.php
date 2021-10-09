@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Source\Commands\MakeModule;
+namespace Alighorbani\Commands\MakeModule;
 
-use Modules\Source\Commands\MakeModule\PathManager;
-use Modules\Source\Commands\MakeModule\ModuleFileManager;
+use Alighorbani\Commands\MakeModule\PathManager;
+use Alighorbani\Commands\MakeModule\ModuleFileManager;
 
 trait MakeModuleEngine
 {

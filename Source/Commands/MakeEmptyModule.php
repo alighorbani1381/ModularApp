@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Source\Commands;
+namespace Alighorbani\Commands;
 
 use Illuminate\Console\Command;
-use Modules\Source\Commands\MakeModule\MakeModuleEngine;
+use Alighorbani\Commands\MakeModule\MakeModuleEngine;
 
 class MakeEmptyModule extends Command
 {

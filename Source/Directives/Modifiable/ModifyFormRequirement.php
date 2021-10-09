@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Source\Directives\Modifiable;
+namespace Alighorbani\Directives\Modifiable;
 
 use EasyBlade\Directives\Directive;
-use Modules\Source\Http\ModifiableView;
+use Alighorbani\Http\ModifiableView;
 
 class ModifyFormRequirement implements Directive
 {

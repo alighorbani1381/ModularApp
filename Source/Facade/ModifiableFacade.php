@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Source\Facade;
+namespace Alighorbani\Facade;
 
 use Imanghafoori\SmartFacades\Facade;
 

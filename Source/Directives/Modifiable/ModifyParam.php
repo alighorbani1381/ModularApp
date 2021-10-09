@@ -1,10 +1,10 @@
 <?php
 
-namespace Modules\Source\Directives\Modifiable;
+namespace Alighorbani\Directives\Modifiable;
 
 use EasyBlade\Directives\Directive;
 use Illuminate\Database\Eloquent\Model;
-use Modules\Source\Http\ModifiableView;
+use Alighorbani\Http\ModifiableView;
 
 class ModifyParam implements Directive
 {
