@@ -66,9 +66,9 @@ class ModulesServiceProvider extends ServiceProvider
      * 
      * @return void
      */
-    protected function defineRouter(string $routeFilePath = 'routes.php')
+    protected function defineRouter(string $routeFilePath = 'routes.php', $group = 'api')
     {
-        Route::middleware('web')
+        Route::middleware($group)
             ->namespace($this->controllerNamespace)
             ->group($this->modulePath($routeFilePath));
     }
