@@ -11,10 +11,10 @@ trait ModulePathHelper
 
     public function getModulePath()
     {
-        $path = $this->getBasePath(__DIR__) . DIRECTORY_SEPARATOR . $this->name;
+        $path = base_path('modules') . DIRECTORY_SEPARATOR . $this->name;
 
         $path = $this->slashPath($path);
-        
+
         if (is_dir($path)) {
             return $path;
         }
